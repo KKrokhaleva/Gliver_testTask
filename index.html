@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Обязательные метатеги -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/Commond.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobileVersion.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+<div class="container Flex">
+
+    <section class="Menu">
+        <div class="Menu_logo  Flex Align_end">
+            <img class="Menu_img" src="./img/dashboard.svg" alt="Glivera dashboard">
+            <p class="w500">v.01</p>
+        </div>
+
+        <nav>
+            <ul class="Nav_list List_style">
+
+                <li class="List_item Grid w500">
+                    <img class="Item_img" src="./img/key-square.svg" alt="key square icon">
+                    <a class="Item-header Link" href="#">Dashboard</a>
+                </li>
+
+                <li class="List_item Grid w500">
+                    <img class="Item_img" src="./img/3d-square%201.svg" alt="3d square icon">
+                    <a class="Item-header Link" href="#">Product</a>
+                    <img class="Item_vector" src="./img/Vector.svg" alt="vector">
+                </li>
+
+                <li class="List_item Grid w500 List_item_active">
+                    <img class="Item_img" src="./img/user-square%201.svg" alt="user square icon">
+                    <a class="Item-header Link" href="#">Customers</a>
+                    <img class="Item_vector" src="./img/Vector.svg" alt="vector">
+                </li>
+
+                <li class="List_item Grid w500">
+                    <img class="Item_img" src="./img/wallet-money%202.svg" alt="user square icon">
+                    <a class="Item-header Link" href="#">Income</a>
+                    <img class="Item_vector" src="./img/Vector.svg" alt="vector">
+                </li>
+
+                <li class="List_item Grid w500">
+                    <img class="Item_img" src="./img/discount-shape%201.svg" alt="discount shape icon">
+                    <a class="Item-header Link" href="#">Promote</a>
+                    <img class="Item_vector" src="./img/Vector.svg" alt="vector">
+                </li>
+
+                <li class="List_item Grid w500">
+                    <img class="Item_img" src="./img/message-question%201.svg" alt="message question icon">
+                    <a class="Item-header Link" href="#">Help</a>
+                    <img class="Item_vector" src="./img/Vector.svg" alt="vector">
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="Client_card Flex">
+            <img src="img/Client-img.png" alt="image Client">
+            <div class="Card_description Align_center">
+                <span class="Description_name Black w600">  Evano </span> <br>
+                <span class="Description_prof">Project Manager</span>
+            </div>
+        </div>
+
+        <button class="Menu_hamburger"><img src="./img/hamburger.png" alt=""></button>
+
+    </section>
+    <div class="Menu_mobile">
+        <button class="Menu_close ">X</button>
+        <ul class="Mobile_popup Padding0">
+            <li class="Flex Align_center Justify_center  Page_number_active"><a class="Page_number_active Link Light_grey" href="#">Dashboard</a></li>
+            <li class="Flex Align_center Justify_center "><a class="Link Light_grey" href="#">Product</a></li>
+            <li class="Flex Align_center Justify_center "><a class="Link Light_grey" href="#">Customers</a></li>
+            <li class="Flex Align_center Justify_center "><a class="Link Light_grey" href="#">Income</a></li>
+            <li class="Flex Align_center Justify_center "><a class="Link Light_grey" href="#">Promote</a></li>
+            <li class="Flex Align_center Justify_center "><a class="Link Light_grey" href="#">Help</a></li>
+        </ul>
+    </div>
+    <section class="Right_step">
+
+        <img class="Right_step_header Black w500" src="img/Hello-Evano.svg" alt="Hello icon">
+
+        <div class="Products">
+
+            <div class="Products_header Flex Align_center">
+                <div class="Products_description">
+                    <h1 class="w600">All Customers</h1>
+                    <p >Active Members</p>
+                </div>
+                <input class="Products_input" type="text" placeholder="Search">
+            </div>
+
+            <div class="Products_list">
+
+                <div class="Item_header Grid">
+                    <span class="Item_description w500 Light_grey None">Customer Name</span>
+                    <span class="Item_description w500 Light_grey None">Company</span>
+                    <span class="Item_description w500 Light_grey None">Phone Number</span>
+                    <span class="Item_description w500 Light_grey None">Email</span>
+                    <span class="Item_description w500 Light_grey None">Country</span>
+                    <span class="Item_description w500 Light_grey None">Status</span>
+                </div>
+
+                <div class=" Grid Item_wrapper">
+
+                    <div class="Grid Description_header ">
+                        <span class="w500 Light_grey Item_description  ">Customer Name</span>
+                        <span class="w500 Light_grey Item_description ">Company</span>
+                        <span class="w500 Light_grey  Item_description">Phone Number</span>
+                        <span class="w500 Light_grey  Item_description">Email</span>
+                        <span class="w500 Light_grey  Item_description">Country</span>
+                        <span class="w500 Light_grey  Item_description">Status</span>
+                    </div>
+
+                    <div class="Grid Products_item">
+                        <span class="Item_description w500 Black ">Jane Cooper</span>
+                        <span class="Item_description w500 Black">Microsoft</span>
+                        <span class="Item_description w500 Black">(225) 555-0118</span>
+                        <span class="Item_description w500 Black">jane@microsoft.com</span>
+                        <span class="Item_description w500 Black">United States</span>
+                        <span class="Item_description w500 Black Item_active">Active</span>
+                    </div>
+                </div>
+
+                <div class=" Grid Item_wrapper">
+
+                    <div class="Grid Description_header">
+                        <span class="w500 Light_grey Item_description ">Customer Name</span>
+                        <span class="w500 Light_grey Item_description">Company</span>
+                        <span class="w500 Light_grey Item_description ">Phone Number</span>
+                        <span class="w500 Light_grey Item_description">Email</span>
+                        <span class="w500 Light_grey Item_description ">Country</span>
+                        <span class="w500 Light_grey Item_description ">Status</span>
+                    </div>
+
+                    <div class="Grid Products_item">
+                        <span class="Item_description w500 Black">Floyd Miles</span>
+                        <span class="Item_description w500 Black">Yahoo</span>
+                        <span class="Item_description w500 Black">(205) 555-0100</span>
+                        <span class="Item_description w500 Black">floyd@yahoo.com</span>
+                        <span class="Item_description w500 Black">Kiribati</span>
+                        <span class="Item_description w500 Black Item_inactive">Inactive</span>
+                    </div>
+
+                </div>
+
+                <div class=" Grid Item_wrapper">
+
+                    <div class="Grid Description_header">
+                        <span class="w500 Light_grey Item_description ">Customer Name</span>
+                        <span class="w500 Light_grey Item_description ">Company</span>
+                        <span class="w500 Light_grey Item_description ">Phone Number</span>
+                        <span class="w500 Light_grey Item_description ">Email</span>
+                        <span class="w500 Light_grey Item_description ">Country</span>
+                        <span class="w500 Light_grey Item_description ">Status</span>
+                    </div>
+
+                    <div class="Grid Products_item">
+                        <span class="Item_description w500 Black">Ronald Richards</span>
+                        <span class="Item_description w500 Black">Adobe</span>
+                        <span class="Item_description w500 Black">(302) 555-0107</span>
+                        <span class="Item_description w500 Black">ronald@adobe.com</span>
+                        <span class="Item_description w500 Black">Israel</span>
+                        <span class="Item_description w500 Black Item_inactive">Inactive</span>
+                    </div>
+
+                </div>
+
+                <div class=" Grid Item_wrapper">
+
+                    <div class="Grid Description_header">
+                        <span class="w500 Light_grey Item_description ">Customer Name</span>
+                        <span class="w500 Light_grey Item_description ">Company</span>
+                        <span class="w500 Light_grey Item_description ">Phone Number</span>
+                        <span class="w500 Light_grey Item_description ">Email</span>
+                        <span class="w500 Light_grey Item_description ">Country</span>
+                        <span class="w500 Light_grey Item_description ">Status</span>
+                    </div>
+
+                    <div class="Grid Products_item">
+                        <span class="Item_description w500 Black">Marvin McKinney</span>
+                        <span class="Item_description w500 Black">Tesla</span>
+                        <span class="Item_description w500 Black">(252) 555-0126</span>
+                        <span class="Item_description w500 Black">marvin@tesla.com</span>
+                        <span class="Item_description w500 Black">Iran</span>
+                        <span class="Item_description w500 Black Item_active">Active</span>
+                    </div>
+
+                </div>
+
+                <div class=" Grid Item_wrapper">
+
+                    <div class="Grid Description_header">
+                        <span class="w500 Light_grey Item_description ">Customer Name</span>
+                        <span class="w500 Light_grey Item_description  ">Company</span>
+                        <span class="w500 Light_grey Item_description  ">Phone Number</span>
+                        <span class="w500 Light_grey Item_description  ">Email</span>
+                        <span class="w500 Light_grey Item_description  ">Country</span>
+                        <span class="w500 Light_grey Item_description  ">Status</span>
+                    </div>
+
+                    <div class="Grid Products_item">
+                        <span class="Item_description w500 Black">Jerome Bell</span>
+                        <span class="Item_description w500 Black">Google</span>
+                        <span class="Item_description w500 Black">(629) 555-0129</span>
+                        <span class="Item_description w500 Black">jerome@google.com</span>
+                        <span class="Item_description w500 Black">Réunion</span>
+                        <span class="Item_description w500 Black Item_active">Active</span>
+                    </div>
+
+                </div>
+
+                <div class=" Grid Item_wrapper">
+
+                    <div class="Grid Description_header">
+                        <span class="w500 Light_grey Item_description ">Customer Name</span>
+                        <span class="w500 Light_grey Item_description ">Company</span>
+                        <span class="w500 Light_grey Item_description ">Phone Number</span>
+                        <span class="w500 Light_grey Item_description ">Email</span>
+                        <span class="w500 Light_grey Item_description ">Country</span>
+                        <span class="w500 Light_grey Item_description ">Status</span>
+                    </div>
+
+                    <div class="Grid Products_item">
+                        <span class="Item_description w500 Black">Kathryn Murphy</span>
+                        <span class="Item_description w500 Black">Microsoft</span>
+                        <span class="Item_description w500 Black">(406) 555-0120</span>
+                        <span class="Item_description w500 Black">kathryn@microsoft.com</span>
+                        <span class="Item_description w500 Black">Curaçao</span>
+                        <span class="Item_description w500 Black Item_active">Active</span>
+                    </div>
+
+                </div>
+
+                <div class=" Grid Item_wrapper">
+
+                    <div class="Grid  Description_header">
+                        <span class="w500 Light_grey Item_description ">Customer Name</span>
+                        <span class="w500 Light_grey Item_description ">Company</span>
+                        <span class="w500 Light_grey Item_description ">Phone Number</span>
+                        <span class="w500 Light_grey Item_description ">Email</span>
+                        <span class="w500 Light_grey Item_description ">Country</span>
+                        <span class="w500 Light_grey Item_description ">Status</span>
+                    </div>
+
+                    <div class="Grid Products_item">
+                        <span class="Item_description w500 Black">Jacob Jones</span>
+                        <span class="Item_description w500 Black">Yahoo</span>
+                        <span class="Item_description w500 Black">(208) 555-0112</span>
+                        <span class="Item_description w500 Black">jacob@yahoo.com</span>
+                        <span class="Item_description w500 Black">Brazil</span>
+                        <span class="Item_description w500 Black Item_active">Active</span>
+                    </div>
+
+                </div>
+
+                <div class=" Grid Item_wrapper">
+
+                    <div class="Grid Description_header">
+                        <span class="w500 Light_grey Item_description ">Customer Name</span>
+                        <span class="w500 Light_grey Item_description  ">Company</span>
+                        <span class="w500 Light_grey Item_description ">Phone Number</span>
+                        <span class="w500 Light_grey Item_description  ">Email</span>
+                        <span class="w500 Light_grey Item_description  ">Country</span>
+                        <span class="w500 Light_grey Item_description  ">Status</span>
+                    </div>
+
+                    <div class="Grid Products_item">
+                        <span class="Item_description w500 Black">Kristin Watson</span>
+                        <span class="Item_description w500 Black">Facebook</span>
+                        <span class="Item_description w500 Black">(704) 555-0127</span>
+                        <span class="Item_description w500 Black">kristin@facebook.com</span>
+                        <span class="Item_description w500 Black">Åland Islands</span>
+                        <span class="Item_description w500 Black Item_inactive">Inactive</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <footer class="Products_footer Flex Align_center">
+
+                <div class="Flex Footer_description">
+                    <p class=" w500">Showing data 1 to 8 of </p>
+                    <p class="w500">256K entries</p>
+                </div>
+
+                <div class="Flex Justify_center">
+
+                    <a class="Page_number  Flex w500 Align_center Link"></a>
+                    <a class="Page_number Page_number_active Flex w500 Align_center Link">1</a>
+                    <a class="Page_number Flex w500 Align_center Link">2</a>
+                    <a class="Page_number Flex w500 Align_center Link">3</a>
+                    <a class="Page_number Flex w500 Align_center Link">4</a>
+                    <a class="sep Align_end Flex Black Link">...</a>
+                    <a class="Page_number Flex w500 Align_center Link">40</a>
+                    <a class="Page_number Flex w500 Align_center Link">></a>
+
+                </div>
+            </footer>
+
+        </div>
+
+    </section>
+</div>
+<script src="index.js"></script>
+</body>
